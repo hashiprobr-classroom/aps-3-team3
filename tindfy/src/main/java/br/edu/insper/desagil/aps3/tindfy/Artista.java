@@ -1,4 +1,8 @@
 package br.edu.insper.desagil.aps3.tindfy;
 
-public class Artista {
+import java.util.List;
+
+public class Artista extends Pessoa {
+
+    }
 }

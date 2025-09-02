@@ -22,8 +22,7 @@ public class Cupido {
             lista.add(id2);
         }
     }
-
-    // verifica se dois usuarios deram like entre si
+    
     public boolean deuMatch(Usuario u1, Usuario u2) {
         List<Integer> lista1 = likes.get(u1.getId());
         List<Integer> lista2 = likes.get(u2.getId());

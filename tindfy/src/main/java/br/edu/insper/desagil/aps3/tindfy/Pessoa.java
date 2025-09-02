@@ -1,17 +1,15 @@
 package br.edu.insper.desagil.aps3.tindfy;
 
 public class Pessoa {
-    private int id;
+    private final int id;
     private String nome;
 
-    public Pessoa() {
+    public Pessoa(int id, String nome) {
         this.id = id;
         this.nome = nome;
     }
 
-
-
-    public int getId() {
+   public int getId() {
         return id;
     }
 

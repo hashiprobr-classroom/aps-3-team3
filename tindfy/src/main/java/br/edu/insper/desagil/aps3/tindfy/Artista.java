@@ -4,5 +4,7 @@ import java.util.List;
 
 public class Artista extends Pessoa {
 
+    public Artista(int id, String nome) {
+        super(id, nome);
     }
 }
